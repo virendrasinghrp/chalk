@@ -57,7 +57,8 @@ assets:
 collections:
   my_tags:
     output: true
-    permalink: /tag/:slug/
+    #permalink: /tag/:slug/
+    permalink: /tag/:title.html
 defaults:
   -
     scope:
@@ -82,4 +83,5 @@ plugins:
   - jekyll-sitemap
   - jemoji
 paginate_path: /posts/page/:num/
-permalink: posts/:slug
+#permalink: posts/:slug
+permalink: posts/:title.html

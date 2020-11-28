@@ -4,7 +4,7 @@ blog_theme: light # Or use dark
 name: Chalk
 paginate: 25
 url: http://virendrasinghrp.github.io
-baseurl: /chalk
+baseurl: /chalk/
 
 
 # Optional settings
@@ -57,8 +57,7 @@ assets:
 collections:
   my_tags:
     output: true
-    #permalink: /tag/:slug/
-    permalink: /tag/:title.html
+    permalink: /tag/:slug/
 defaults:
   -
     scope:
@@ -83,5 +82,4 @@ plugins:
   - jekyll-sitemap
   - jemoji
 paginate_path: /posts/page/:num/
-#permalink: posts/:slug
-permalink: posts/:title.html
+permalink: posts/:slug

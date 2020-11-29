@@ -4,7 +4,7 @@ blog_theme: light # Or use dark
 name: Chalk
 paginate: 25
 url: http://virendrasinghrp.github.io
-#baseurl: /chalk/
+baseurl: /chalk
 
 
 # Optional settings
